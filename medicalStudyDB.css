@@ -1,0 +1,287 @@
+#background{
+    background-color: #DDD9D9;
+     
+}
+
+#wrap { 
+        width: 960px;
+	margin: 0 auto;
+}
+#headerBox{
+    position: relative;
+    top: 0px;
+    left:200px;
+    text-align: center;
+    line-height: 75px;
+    background-color: #F57C6A;
+    border-radius: 25px;
+    font-size: 10pt;
+    font-family:arial;
+    padding-bottom: 55px;
+    color: white;
+    width: 600px;
+    height: 60px;
+    border: 3px solid #87D171;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.container{
+    position: relative;
+    top: 40px;
+    left:00px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 934px;
+    height: 200px;
+    border: 3px solid #F57C6A;
+    padding: 10px;
+}
+.containerVisit{
+    position: relative;
+    top: 40px;
+    left:80px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 350px;
+    border: 3px solid #F57C6A;
+    padding: 10px;
+}
+
+.container2{
+    position: relative;
+    top: 40px;
+    left:60px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 250px;
+    border: 3px solid #F57C6A;
+    padding: 10px;
+}
+.container3{
+    position: relative;
+    top: 70px;
+    left:30px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 900px;
+    height: 220px;
+    border: 3px solid #F57C6A;
+    padding-left: 10px;
+}
+
+.container4{
+    position: relative;
+    top: 30px;
+    left:-15px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 900px;
+    height: 220px;
+    border: 3px solid #F57C6A;
+    padding-left: 10px;
+}
+.containerQuery{
+    position: relative;
+    top: 50px;
+    left:230px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 500px;
+    height: 250px;
+    border: 3px solid #F57C6A;
+    font-family:arial;
+     background-color: white;
+     padding-left: 10px;
+}
+
+.menuBackground {
+	background:#F91131;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        top:35px;
+        font-family: arial;
+        font-size: 16px;
+        border: 2px solid #87D171;
+        
+}
+.dropDownMenu a {
+	color: white;
+        padding:10px;
+        border-radius: 5px;
+        
+}
+.dropDownMenu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+        border-radius: 5px;
+        
+}
+
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+        border-radius: 5px;
+        
+}
+.dropDownMenu li {
+	position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+        
+}
+.dropDownMenu a:hover {
+	background: #87D171;
+        border: 1px solid black;
+        
+}
+
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	
+	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
+        
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > a {}
+.dropDownMenu > li > a:hover {}
+
+
+
+/* Level 2 */
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: 130%;
+	display: none;
+	background: #F91131;
+        border: 2px solid black;
+	position: absolute;
+	top: 100%;
+	left: -20;
+	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu ul li a {}
+.dropDownMenu ul li a:hover {}
+
+
+
+/* Level 3 */
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+        width: 130%;
+	display: none;
+	background: #F91131;
+        border: 2px solid black;
+	position: absolute;
+	right: 100%;
+	top: 0;
+        
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+.dropDownMenu ul ul li {}
+.dropDownMenu ul ul li a {}
+.dropDownMenu ul ul li a:hover {}
+
+h3{
+    text-align: center;
+    color:red;
+}
+#formLoc{
+    position: relative;
+    top: 100px;
+    left:150px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+    
+    
+ }
+ #VisitDisplay{
+    position: relative;
+    top: 100px;
+    left:-100px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+     }
+#tableLoc{
+     position: relative;
+    top: 70px;
+    left:80px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+    border: 3px solid #F57C6A;    
+ }
+#tableVisit{
+     position: relative;
+    top: 70px;
+    left:80px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+    border: 3px solid #F57C6A;    
+ }
+ 
+ #textHint{
+     position: relative;
+    left: 600px;
+    top:15px;
+    font-size: 10pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+
+ }
+ 
+ #textVisit{
+     position: relative;
+    left: 80px;
+    top:80px;
+    font-size: 10pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+ 
+ }
+
+ #loc{
+     position: relative;
+    left: 80px;
+    top:80px;
+    font-size: 14pt;
+    font-family:arial;  
+    width: 800px;
+    height: 200px;
+}
+input[type=submit] {
+    font-size: 14pt;
+}
