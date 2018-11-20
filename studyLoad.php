@@ -82,8 +82,7 @@ $result = mysqli_query($con, $sql);
     					?>        
 
                            <br>
-                            <input type="submit"  value ="Enter Study Data" name ="input"</>
-                    </select>         
+                            <input type="submit"  value ="Enter Study Data" name ="input"/>      
                     </form>
                                    
 </div>
@@ -92,6 +91,6 @@ $result = mysqli_query($con, $sql);
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

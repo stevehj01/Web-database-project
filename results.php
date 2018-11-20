@@ -7,7 +7,7 @@ if (!$con) {
 }
 
 ?>
-<html>
+<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
    <meta http-equiv="Content-Style-Type" content="text/css">
@@ -21,7 +21,7 @@ table, th, td {
 
 </head>
 <body id ="background">
-        <div id ="wrap"/> 
+        <div id ="wrap"> 
         <div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
             </div>
@@ -84,8 +84,8 @@ elseif (isset($_POST['treatID']))
 		<p>Treatment Description for Treatment ID: <?php echo $treatID;?>
 		<table>
 		<tr>
-			<th style="width:100px">Treatment ID</hd>
-			<th style="width:200px">Description</hd>
+			<th style="width:100px">Treatment ID</th>
+			<th style="width:200px">Description</th>
 		</tr>	
 		<?php
 		while ($result22 = mysqli_fetch_array($result2)) 
@@ -113,8 +113,8 @@ elseif (isset($_POST['treatID']))
 		<p>Diagnosis Description for Diagnosis ID: <?php echo $diagID;?>
 		<table>
 		<tr>
-			<th style="width:100px">Diagnosis ID</hd>
-			<th style="width:200px">Description</hd>
+			<th style="width:100px">Diagnosis ID</th>
+			<th style="width:200px">Description</th>
 		</tr>	
 		<?php
 		while ($result22 = mysqli_fetch_array($result2)) 
@@ -133,6 +133,7 @@ elseif (isset($_POST['treatID']))
  }
 mysqli_close($con);
 ?>
+</div>
 </body>
 </html>
 

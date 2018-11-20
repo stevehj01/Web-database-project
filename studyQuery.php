@@ -118,13 +118,13 @@ $result5 = mysqli_query($con, $sql5);
                             </select>  
                             
 							<br>
-                            <input type="submit"  value ="Get Study Data" name ="input"</>
+                            <input type="submit"  value ="Get Study Data" name ="input"/>
                     </form>
                                   
                 </div>               
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

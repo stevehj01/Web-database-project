@@ -67,15 +67,14 @@ if (!$con) {
                             ICD9 Number: <input type="text" name="ICDNum" id="ICDNum" /> 
                             Description: <input type="text" name="description" id="description" /> 
                             <input type="submit"  value ="Enter ICD9 Data" name ="input"</>
-                    </select>         
                     </form>
                                    
-</div>
+            </div>
 
 
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

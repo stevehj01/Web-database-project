@@ -66,16 +66,15 @@ if (!$con) {
                     <form name="condition" action="conditionInput.php"  id = "condition" method="post">
                             
                             Description: <input type="text" name="description" id="description" /> 
-                            <input type="submit"  value ="Enter Condition Data" name ="input"</>
-                    </select>         
+                            <input type="submit"  value ="Enter Condition Data" name ="input"/>    
                     </form>
                                    
-</div>
+            </div>
 
 
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

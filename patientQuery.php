@@ -182,6 +182,6 @@ $result8 = mysqli_query($con, $sql8);
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

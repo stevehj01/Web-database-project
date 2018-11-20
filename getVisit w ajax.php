@@ -14,7 +14,7 @@ $result = mysqli_query($con, $sql);
 
 
 ?>
-<html>
+<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
    <meta http-equiv="Content-Style-Type" content="text/css">
@@ -51,7 +51,7 @@ function requestStudy(studyID) {
         <div id ="wrap"/> 
         <div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
-            </div>
+        </div>
             <div class="drop">
                 <div class="menuBackground">
                     <ul class="dropDownMenu">
@@ -70,12 +70,12 @@ function requestStudy(studyID) {
 	<table>
 	<tr>
 		
-		<th>Date</hd>
-		<th>Visit ID</hd>
-		<th>Diagnosis</hd>
-		<th>Treatment</hd>
-		<th>Test ID</hd>
-		<th>Study ID</hd>
+		<th>Date</th>
+		<th>Visit ID</th>
+		<th>Diagnosis</th>
+		<th>Treatment</th>
+		<th>Test ID</th>
+		<th>Study ID</th>
 	</tr>	
 	<?php
 		while ($result1 = mysqli_fetch_array($result)) {			

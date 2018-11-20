@@ -66,13 +66,13 @@ if (!$con) {
                     <form name="diag" action="resultDiagnosis.php"  id = "diag" method="post">
                     		Diagnosis ID: <input type="text" name="diagID" id="diagID" /> 
                     		Diagnosis Description: <input type="text" name="diagDesc" id="diagDesc" />
-                            <input type="submit"  value ="Enter Diagnosis Data" name ="input"</>
+                            <input type="submit"  value ="Enter Diagnosis Data" name ="input"/>
                     </form>
                                   
                 </div>               
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

@@ -66,13 +66,13 @@ if (!$con) {
                     <form name="assist" action="resultAssistive.php"  id = "assist" method="post">
                     		Assistive Device ID: <input type="text" name="assistID" id="assistID" /> 
                     		Assistive Device Description: <input type="text" name="assistDesc" id="assistDesc" />
-                            <input type="submit"  value ="Enter Assistive Device Data" name ="input"</>
+                            <input type="submit"  value ="Enter Assistive Device Data" name ="input"/>
                     </form>
                                   
                 </div>               
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

@@ -19,7 +19,7 @@ $result = mysqli_query($con, $sql);
 
 
 ?>
-<html>
+<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
    <meta http-equiv="Content-Style-Type" content="text/css">
@@ -27,7 +27,7 @@ $result = mysqli_query($con, $sql);
 <link href="medicalStudyDB.css" rel="stylesheet" type="text/css" />
 </head>
 <body id ="background">
-        <div id ="wrap"/> 
+        <div id ="wrap"> 
         <div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
             </div>
@@ -49,11 +49,11 @@ $result = mysqli_query($con, $sql);
 	<table>
 	<tr>
 		
-		<th>Test ID</hd>
-		<th>Visit ID</hd>
-		<th>Estimated Processing Completion Date</hd>
-		<th>Estimated Analysis Completion Date</hd>
-		<th>Test File Name</hd>
+		<th>Test ID</th>
+		<th>Visit ID</th>
+		<th>Estimated Processing Completion Date</th>
+		<th>Estimated Analysis Completion Date</th>
+		<th>Test File Name</th>
 		
 	
 	</tr>	
@@ -81,5 +81,6 @@ $result = mysqli_query($con, $sql);
 <?php
 mysqli_close($con);
 ?>
+</div>
 </body>
 </html>

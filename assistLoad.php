@@ -64,18 +64,16 @@ if (!$con) {
             <div class="container">
                 <h2>Enter Assistive Device Data</h2>
                     <form name="assist" action="assistInput.php"  id = "assist" method="post">
-                            Description: <input type="text" name="description" id="description" /> 
-                            
-                            <input type="submit"  value ="Enter Assistive Device Data" name ="input"</>
-                    </select>         
+                            Description: <input type="text" name="description" id="description" />  
+                                <input type="submit"  value ="Enter Assistive Device Data" name ="input"/>
                     </form>
                                    
-</div>
+            </div>
 
 
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

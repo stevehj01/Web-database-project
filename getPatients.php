@@ -37,7 +37,7 @@ $result = mysqli_query($con,$sql);
 
 
 ?>
-<html>
+<!DOCTYPE html>
 <head>
 <title>Study Results</title>
 <meta charset="utf-8">
@@ -47,7 +47,7 @@ $result = mysqli_query($con,$sql);
  
 </head>
 <body id ="background">
-        <div id ="wrap"/> 
+        <div id ="wrap"> 
         <div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
             </div>
@@ -98,10 +98,10 @@ $result = mysqli_query($con,$sql);
 
 	<table>
 	<tr>
-		<th>Clinic Number</hd>
-		<th>Name</hd>
-		<th>Date of Birth</hd>
-		<th>Gender</hd>
+		<th>Clinic Number</th>
+		<th>Name</th>
+		<th>Date of Birth</th>
+		<th>Gender</th>
 		
 	</tr>	
 	
@@ -129,5 +129,6 @@ $result = mysqli_query($con,$sql);
 mysqli_close($con);
 
 ?>
+</div>
 </body>
 </html>

@@ -9,8 +9,8 @@
 </head>
 
 <body id ="background">
-        <div id ="wrap"/> 
-        <div id ="headerBox">
+        <div id ="wrap"> 
+        	<div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
             </div>
 

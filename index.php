@@ -1,8 +1,4 @@
 <!DOCTYPE html >
-
-<html>
-
-
 <title>Patient Input</title>
  <meta charset="utf-8">
   
@@ -55,6 +51,6 @@
                 </div>
             </div>
             
-
+        </div>
     </body>
 </html>

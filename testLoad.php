@@ -70,16 +70,15 @@ if (!$con) {
                             Estimated Date Processing Completed: <input type="date" name="processDate" id="pdate" /> 
                             Estimated Date Analysis Completed: <input type="date" name="analysisDate" id="adate" /> 
                             <br>
-                            <input type="submit"  value ="Enter Test Results Data" name ="input"</>
-                    </select>         
+                            <input type="submit"  value ="Enter Test Results Data" name ="input"</> 
                     </form>
                                    
-</div>
+            </div>
 
 
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

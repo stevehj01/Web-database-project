@@ -66,8 +66,7 @@ if (!$con) {
                     <form name="diagnosis" action="inputDiagnosis.php"  id = "diagnosis" method="post">
                             Description: <input type="text" name="description" id="description" /> 
                             
-                            <input type="submit"  value ="Enter Diagnosis Data" name ="input"</>
-                    </select>         
+                            <input type="submit"  value ="Enter Diagnosis Data" name ="input"/>
                     </form>
                                    
 </div>
@@ -76,6 +75,6 @@ if (!$con) {
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

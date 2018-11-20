@@ -110,6 +110,6 @@ $result1 = mysqli_query($con, $sql1);
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

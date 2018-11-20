@@ -67,15 +67,14 @@ if (!$con) {
                             Description: <input type="text" name="description" id="description" /> 
                             
                             <input type="submit"  value ="Enter Treatment Data" name ="input"</>
-                    </select>         
                     </form>
                                    
-</div>
+            </div>
 
 
 <?php
 mysqli_close($con);
 ?>
-
+        </div>
     </body>
 </html>

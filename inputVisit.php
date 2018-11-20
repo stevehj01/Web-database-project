@@ -9,7 +9,7 @@
 </head>
 
 <body id ="background">
-        <div id ="wrap"/> 
+        <div id ="wrap"> 
         <div id ="headerBox">
                 <h1>TAS Medical Studies</h1>
             </div>
@@ -125,6 +125,7 @@ $referral = $_POST['referral'];
 		
 mysqli_close($con);	
 ?>
+</div>
 </div>
 </body>
 </html>
